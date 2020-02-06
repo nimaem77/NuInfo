@@ -1,35 +1,67 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
-   <!-- Meta Tags -->
+<head>
+    <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="ostacor">
     <meta name="keywords" content="HTML,CSS,JavaScript,jquery">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-         
-          <title>Nu Info Systems, Inc.</title>
-          <!-- bootstrap -->
-          <link href="css/bootstrap.min.css" rel="stylesheet">
-          <!-- Custom CSS: custom Styles -->
-          <link href="css/animate.css" rel="stylesheet">
-          <link href="css/viewbox.css" rel="stylesheet">
-          <link href="css/main.css" rel="stylesheet">
-            <link rel="icon" href="images/ResizedToBeCircle.jpg">
 
-          <!-- Google Font and font-awesome -->
-          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-          <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,300,400,400i,500,500i,600,700,900" rel="stylesheet">
-                
-          <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-          <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-          <!--[if lt IE 9]>
-           
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
-  </head>
+    <!--This is to add social media tag desisn (AB)-->
+    .social-footer {
+    padding: 1rem;
+    background: #8a8a8a;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+    margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+    font-size: 1.3rem;
+    color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+    color: #4a4a4a;
+    transition: color 0.3s ease-in;
+}
+
+    </style>
+    <!--end of social media tag design (AB)-->
+
+    <title>Nu Info Systems, Inc.</title>
+    <!-- bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS: custom Styles -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/viewbox.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" href="images/ResizedToBeCircle.jpg">
+
+    <!-- Google Font and font-awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,300,400,400i,500,500i,600,700,900" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
   
 <!-- Body Start-->
 <body>
@@ -158,18 +190,30 @@
 <footer>
     <!-- container Start-->
     <div class="container">
-       <div class="row" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
-           <ul>
-               <li><a href="index.html">Home </a></li><li class="semicolon">|</li>
-               <li><a href="about.html">About</a></li><li class="semicolon">|</li>
-               <li><a href="services.html">Services</a></li><li class="semicolon">|</li>
-               <li><a href="products.html">Products</a></li><li class="semicolon">|</li>
-               <li><a href="contact.html">contact</a></li>
-           </ul>
-                      <p style="color: #5c8af3";>Copyright &copy; 2018, Nu Info Systems, Inc. All rights reserved. </p>
+        <div class="row" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
+            <ul>
+                <li><a href="index.html">Home </a></li>
+                <li class="semicolon">|</li>
+                <li><a href="about.html">About</a></li>
+                <li class="semicolon">|</li>
+                <li><a href="services.html">Services</a></li>
+                <li class="semicolon">|</li>
+                <li><a href="products.html">Products</a></li>
+                <li class="semicolon">|</li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
 
-       </div>
-      
+            <!--Social Media Buttons (AB)-->
+            <div class="social-footer-icons">
+                <ul class="menu simple">
+                    <li><a href="https://www.facebook.com/pages/Nu-Info-Systems-Inc/107092515990129"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/nu-info-systems-inc/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <p style="color: #5c8af3" ;>Copyright &copy; 2020, Nu Info Systems, Inc. All rights reserved. </p>
+        </div>
+
     </div>
     <!-- container Ended-->
 </footer>
